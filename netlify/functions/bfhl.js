@@ -13,9 +13,9 @@ export default async (req, context) => {
   }
 
   // Environment variables fallback values
-  const userId = process.env.USER_ID || "john_doe_17091999";
-  const email = process.env.EMAIL || "john@xyz.com";
-  const rollNumber = process.env.ROLL_NUMBER || "ABCD123";
+  const userId = process.env.USER_ID || "rohit_kumawat_09072004";
+  const email = process.env.EMAIL || "rohitkumawat230989@acropolis.in";
+  const rollNumber = process.env.ROLL_NUMBER || "0827CS231224";
 
   if (req.method === "GET") {
     return new Response(JSON.stringify({ operation_code: 1 }), {
